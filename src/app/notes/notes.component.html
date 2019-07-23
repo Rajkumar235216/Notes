@@ -1,3 +1,5 @@
+
+<!-- displaying search box and save button at the top of front page.  -->
 <h1>Notes</h1>
 <div class="search">
   <form class="" action="index.html" method="post">
@@ -5,7 +7,9 @@
     <button type="button" name="button">Save</button>
   </form>
 </div>
-<div class="edit">
-  <button  style="background-color:blue ; color:white" type="button" name="button">Edit</button> <span>This is a para.</span>
+
+<!-- displaying edit button with its current value using for loop.  -->
+<div class="edit" *ngFor = "let note of notes">
+  <button  style="background-color:blue ; color:white" type="button" name="button">Edit</button> <span>{{note.name}}</span>
   <app-edit></app-edit>
 </div>
