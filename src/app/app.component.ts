@@ -10,7 +10,7 @@ export class AppComponent {
 }
 
 //  created a constant array note[] and initialized some notes name to it
-export const NOTE :note[]=[
+export const NOTE : note[] = [
   { id : 1 , name : 'Eat Breakfast'},
   { id : 2 , name : 'Go for a Walk'},
   { id : 3 , name : 'Learn Angular'},
