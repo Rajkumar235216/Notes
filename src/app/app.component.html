@@ -1,4 +1,18 @@
-<div class="">
-  <app-notes></app-notes>
+
+<!-- displaying search box and save button at the top of front page.  -->
+<h1>Notes</h1>
+<div class="search">
+  <form class="" action="index.html" method="post">
+    <input type="text" name="note1" value="Add a note">
+    <button type="button" name="button">Save</button>
+  </form>
+</div>
+
+<!-- displaying edit button with its current value using for loop.  -->
+<div class="edit" *ngFor = "let i of note
+
+  <button  routerLink = 'edit-page' style="background-color:blue ; color:white" type="button" name="button">Edit</button> <span>{{i}}</span>
 
 </div>
+
+<app-notes></app-notes>
