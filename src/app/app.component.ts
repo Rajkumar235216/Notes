@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
+  // let note: string[];
   //  created a constant array note[] and initialized some notes name to i
-  export  const note =  [
+
+   const note =  [
       'Eat Breakfast',
       'Go for a Walk',
       'Learn Angular',

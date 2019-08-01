@@ -1,0 +1,15 @@
+.search, .edit {
+  margin-right: 100px;
+ background-color: black;
+
+}
+
+
+
+#list
+{
+  border-right: 20px;
+  background-color: lightgreen;
+  font-stretch: expanded;
+  padding-width:20px;
+}

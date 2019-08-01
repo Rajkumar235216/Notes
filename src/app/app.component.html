@@ -9,9 +9,9 @@
 </div>
 
 <!-- displaying edit button with its current value using for loop.  -->
-<div class="edit" *ngFor = "let i of note
+<div class="edit" *ngFor = "let i of note">
 
-  <button  routerLink = 'edit-page' style="background-color:blue ; color:white" type="button" name="button">Edit</button> <span>{{i}}</span>
+  <button  routerLink = 'edit-page' style="background-color:blue ; color:white" type="button" name="button">Edit</button> <span id="list">{{i}}</span>
 
 </div>
 
